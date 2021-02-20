@@ -1,0 +1,64 @@
+body{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50vh;
+    margin: 0px;
+    padding: 300px 0px 60px 0px;
+    background-size: cover;
+    background-position: center;
+}
+
+.inMain{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    height: auto;
+    margin: auto;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: left;
+    align-items: center;
+}
+
+.inText{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: left;
+    align-items: center;
+}
+
+.inText p{
+    color: #fff;
+    font: 15px "Josefin Sans", sans-serif;
+    margin: 0px 0px 18px;
+}
+
+.inText h2{
+    color: #fff;
+    font: 60px "Play", sans-serif;
+    margin: 0px 0px 38px;
+}
+
+
+
+
+
+
+
+
+
