@@ -9,8 +9,8 @@ function Home1() {
                 className={Style.main}
                 style={{backgroundImage:`url(${img})`}} >
                 <div className={Style.inMain} >
-                    <div className={Style.text} >
 
+                    <div className={Style.text} >
                         <div className={Style.inText} >
                             <p>
                                 FOR WEBSITE AND VIDEO EDITING
@@ -19,15 +19,18 @@ function Home1() {
                                 VIDEOGRAPHER’S PORTFOLIO
                             </h2>
                            <div className={Style.btn} >
-                           <a   href="/">
-                                SEE MORE ABOUT US
-                            </a>
+                               <div className={Style.btnin}>
+                               </div>
+                                <a href="/">
+                                    SEE MORE ABOUT US
+                                </a>
+                                <div className={Style.btn2} >
+
+                                </div>
                            </div>
                         </div>
-
-
-
                     </div>
+                    
                 </div>
             </div>
 
