@@ -2,6 +2,9 @@ import React from 'react'
 import Home from './home/Home'
 import {BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import Navbar from './Navbar.js/Navbar'
+import Footer from './Footer/Footer'
+import About1 from './About/About1'
+import About from './About/About'
 
 function App() {
     return (
@@ -13,32 +16,24 @@ function App() {
                         <Home/>
                     </Route>
                     <Route exact path='/about'>
-                        <h1>
-                            about
-                        </h1>
+                        <About1 title='About us'/>
+                        <About/>
                     </Route>
                     <Route exact path='/portfolio'>
-                        <h1>
-                            portfolio
-                        </h1>
+                        <About1 title='Portfolio'/>
                     </Route>
                     <Route exact path='/services'>
-                        <h1>
-                        services
-                        </h1>
+                        <About1 title='Services'/>
                     </Route>
                     <Route exact path='/pages'>
-                        <h1>
-                        pages
-                        </h1>
+                        <About1 title='Pages'/>
                     </Route>
                     <Route exact path='/contact'>
-                        <h1>
-                            contact
-                        </h1>
+                        <About1 title='Contact'/>
                     </Route>
                     
                 </Switch>
+                <Footer/>
             </Router>
         </div>
     )

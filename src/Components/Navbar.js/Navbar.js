@@ -59,11 +59,11 @@ const Navbar = () => {
                     </Link>
     
                     <div className={style.icons} >
-                       <Link to='/'> <FaFacebookF/></Link>
-                        <Link to='/'><FaTwitter/></Link>
-                        <Link to='/'><FaDribbble/></Link>
-                        <Link to='/'><FaInstagram/></Link>
-                        <Link to='/'><FaYoutube/></Link>
+                       <Link to='https://www.facebook.com'> <FaFacebookF/></Link>
+                        <Link to='https://www.twitter.com'><FaTwitter/></Link>
+                        <Link to=''><FaDribbble/></Link>
+                        <Link to='https://www.instagramm.com'><FaInstagram/></Link>
+                        <Link to='https://www.youtube.com'><FaYoutube/></Link>
                     </div>
     
                 </div>
@@ -109,11 +109,11 @@ const Navbar = () => {
                             </Link>
             
                             <div className={style.icons} >
-                            <Link to='/'> <FaFacebookF/></Link>
-                                <Link to='/'><FaTwitter/></Link>
-                                <Link to='/'><FaDribbble/></Link>
-                                <Link to='/'><FaInstagram/></Link>
-                                <Link to='/'><FaYoutube/></Link>
+                            <Link to='https://www.facebook.com'> <FaFacebookF/></Link>
+                                <Link to='https://www.twitter.com'><FaTwitter/></Link>
+                                <Link to=''><FaDribbble/></Link>
+                                <Link to='https://www.instagramm.com'><FaInstagram/></Link>
+                                <Link to='https://www.youtube.com'><FaYoutube/></Link>
                             </div>
                         </div>
         

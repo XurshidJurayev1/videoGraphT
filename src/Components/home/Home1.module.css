@@ -103,7 +103,7 @@ body{
 
 @media screen and (max-width: 800px ) {
     .main{
-        height: 45vh;
+        height: 60vh;
     }
     .inText p{
       font-size: 14px;
