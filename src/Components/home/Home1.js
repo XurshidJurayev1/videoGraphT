@@ -1,6 +1,8 @@
 import React from 'react'
 import Style from './Home1.module.css'
 import img from '../assets/hero-1.png'
+import Fade from 'react-reveal/Fade';
+
 
 function Home1() {
     return (
@@ -9,7 +11,7 @@ function Home1() {
                 className={Style.main}
                 style={{backgroundImage:`url(${img})`}} >
                 <div className={Style.inMain} >
-
+                <Fade bottom cascade >
                     <div className={Style.text} >
                         <div className={Style.inText} >
                             <p>
@@ -30,7 +32,7 @@ function Home1() {
                            </div>
                         </div>
                     </div>
-                    
+                </Fade>
                 </div>
             </div>
 

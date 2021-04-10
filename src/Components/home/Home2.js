@@ -4,6 +4,9 @@ import svg1 from '../assets/si-1.webp'
 import svg2 from '../assets/si-2.webp'
 import svg3 from '../assets/si-3.webp'
 import svg4 from '../assets/si-4.webp'
+import Roll from 'react-reveal/Roll';
+
+
 
 function Home2() {
     return (
@@ -12,29 +15,33 @@ function Home2() {
                 <div className={Style.inMain} >
 
                     <div className={Style.flex}>
-                        <div className={Style.left} >
-                            <h4>
-                                OUR SERVICES
-                            </h4>
-                            <h2>
-                                WHAT WE DO?
-                            </h2>
-                            <div className={Style.line}></div>
-                            <p>
-                                If you hire a videographer of our team you will get a video professional to make a custom video for your business and, once the project is over.
-                            </p>
-                            <div className={Style.btn} >
-                               <div className={Style.btnin}>
-                               </div>
-                                <a href="/">
-                                    VIEW ALL SERVICES
-                                </a>
-                                <div className={Style.btn2} >
-
+                        <Roll bottom cascade>
+                            <div className={Style.left} >
+                                <h4>
+                                    OUR SERVICES
+                                </h4>
+                                <h2>
+                                    WHAT WE DO?
+                                </h2>
+                                <div className={Style.line}></div>
+                                <p>
+                                    If you hire a videographer of our team you will get a video professional to make a custom video for your business and, once the project is over.
+                                </p>
+                                <div className={Style.btn} >
+                                <div className={Style.btnin}>
                                 </div>
-                           </div>
-                        </div>
+                                    <a href="/">
+                                        VIEW ALL SERVICES
+                                    </a>
+                                    <div className={Style.btn2} >
+
+                                    </div>
+                            </div>
+                            </div>
+                        </Roll>
                         <div className={Style.right} >
+                        <Roll right cascade>
+
                             <div className={Style.one}>
                                 <div className={Style.card} >
                                     <div className={Style.icon} >
@@ -83,6 +90,7 @@ function Home2() {
                                     </p>
                                 </div>
                             </div>
+                        </Roll>
                         </div>
 
                     </div>

@@ -1,12 +1,17 @@
 import React from 'react'
 import style from './Home6.module.css'
 import img from '../../Components/assets/blog-1.jpg'
+import Bounce from 'react-reveal/Bounce';
+import Flip from 'react-reveal/Flip';
+
+
 
 
 const Home6 = () => {
     return (
         <div className={style.main}>
             <div className={style.inMain} >
+            <Bounce bottom cascade>
                 <div className={style.title} >
                     <h4>
                         OUR BLOG
@@ -16,9 +21,10 @@ const Home6 = () => {
                     </h2>
                     <span className={style.line}></span>
                 </div>
-                
+            </Bounce>
                 <div className={style.corusel}>
                     <div className={style.grid} >
+                    <Flip left cascade>
                         <div className={style.item} >
                             <div className={style.img} style={{backgroundImage: `url(${img})`}} > </div>
                             <div className={style.content}>
@@ -36,6 +42,8 @@ const Home6 = () => {
                                 </div>
                             </div>
                         </div>
+                    </Flip>
+                    <Flip left cascade>
                         <div className={style.item} >
                             <div className={style.img} style={{backgroundImage: `url(${img})`}} > </div>
                             <div className={style.content}>
@@ -53,6 +61,8 @@ const Home6 = () => {
                                 </div>
                             </div>
                         </div>
+                    </Flip>
+                    <Flip left cascade>
                         <div className={style.item} >
                             <div className={style.img} style={{backgroundImage: `url(${img})`}} > </div>
                             <div className={style.content}>
@@ -70,6 +80,7 @@ const Home6 = () => {
                                 </div>
                             </div>
                         </div>
+                    </Flip>
 
                         
                     </div>
