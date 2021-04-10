@@ -1,7 +1,7 @@
 import React from 'react'
 import style from './About3.module.css'
 import bg from '../assets/testimonial-bg.jpg'
-import user1 from ''
+import user1 from '../assets/team-2.png'
 
 const About3 = () => {
     return (
@@ -19,7 +19,9 @@ const About3 = () => {
                 <div className={style.corousel} >
                     <div className={style.block} >
                         <div className={style.border} >
-
+                            <p>
+                                Delivers such great services that it can benefit all kinnd of people from an ynumber of industries  
+                            </p>
                         </div>
                         <div className={style.user} >
                             <div className={style.userImg} style={{backgroundImage:`url(${user1})`}} ></div>
@@ -28,7 +30,43 @@ const About3 = () => {
                                     Krista Attorn
                                 </h3>
                                 <p>
-                                    Web Designer
+                                    Video Grapher
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={style.block} >
+                        <div className={style.border} >
+                            <p>
+                                Delivers such great services that it can benefit all kinnd of people from an ynumber of industries  
+                            </p>
+                        </div>
+                        <div className={style.user} >
+                            <div className={style.userImg} style={{backgroundImage:`url(${user1})`}} ></div>
+                            <div>
+                                <h3>
+                                    Krista Attorn
+                                </h3>
+                                <p>
+                                    Video Grapher
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={style.block} >
+                        <div className={style.border} >
+                            <p>
+                                Delivers such great services that it can benefit all kinnd of people from an ynumber of industries  
+                            </p>
+                        </div>
+                        <div className={style.user} >
+                            <div className={style.userImg} style={{backgroundImage:`url(${user1})`}} ></div>
+                            <div>
+                                <h3>
+                                    Krista Attorn
+                                </h3>
+                                <p>
+                                    Video Grapher
                                 </p>
                             </div>
                         </div>
