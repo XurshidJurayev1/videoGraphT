@@ -5,6 +5,7 @@ import Navbar from './Navbar.js/Navbar'
 import Footer from './Footer/Footer'
 import About1 from './About/About1'
 import About from './About/About'
+import Home2 from './home/Home2'
 
 function App() {
     return (
@@ -19,14 +20,13 @@ function App() {
                         <About1 title='About us'/>
                         <About/>
                     </Route>
-                    <Route exact path='/portfolio'>
-                        <About1 title='Portfolio'/>
-                    </Route>
                     <Route exact path='/services'>
                         <About1 title='Services'/>
+                        <Home2/>
                     </Route>
                     <Route exact path='/pages'>
                         <About1 title='Pages'/>
+                        <Home2/>
                     </Route>
                     <Route exact path='/contact'>
                         <About1 title='Contact'/>

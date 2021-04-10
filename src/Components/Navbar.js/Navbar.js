@@ -39,22 +39,19 @@ const Navbar = () => {
                         </div>
 
                     </div>
-                    <Link to='/' activeStyle={{color:'red'}} >
+                    <Link to='/' activeStyle={{color:'#00bfe7'}} >
                         Home
                     </Link>
-                    <Link to='/about' activeStyle={{color:'red'}} >
+                    <Link to='/about' activeStyle={{color:'#00bfe7'}} >
                         about
                     </Link>
-                    <Link to='/portfolio' activeStyle={{color:'red'}} >
-                        Portfolio
-                    </Link>
-                    <Link to='/services' activeStyle={{color:'red'}} >
+                    <Link to='/services' activeStyle={{color:'#00bfe7'}} >
                         Servcices
                     </Link>
-                    <Link to='/pages' activeStyle={{color:'red'}} >
+                    <Link to='/pages' activeStyle={{color:'#00bfe7'}} >
                         Pages
                     </Link>
-                    <Link to='/contact' activeStyle={{color:'red'}} >
+                    <Link to='/contact' activeStyle={{color:'#00bfe7'}} >
                         Contact
                     </Link>
     
