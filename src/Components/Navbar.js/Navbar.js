@@ -5,6 +5,8 @@ import {FaFacebookF, FaTwitter, FaDribbble, FaInstagram, FaYoutube} from 'react-
 import {HiViewList} from 'react-icons/hi'
 import {VscChromeClose } from 'react-icons/vsc'
 import logo from '../assets/logo.png'
+import Fade from 'react-reveal/Fade';
+
 
 
 
@@ -85,7 +87,8 @@ const Navbar = () => {
                                     }
                                 </div>
                         </div>
-                        <div className={clicked ? `${style.clickTrue}`: `${style.clickFalse}`} >
+                        <Fade top collapse  cascade when={clicked} >
+                        <div className={clicked ? `${style.clickTrue}`: `${style.clickFalse}` } >
                             <Link to='/' activeStyle={{color:'red'}} >
                                 Home
                             </Link>
@@ -113,7 +116,7 @@ const Navbar = () => {
                                 <Link to='https://www.youtube.com'><FaYoutube/></Link>
                             </div>
                         </div>
-        
+                        </Fade>        
                     </div>
                 </div>
             )
