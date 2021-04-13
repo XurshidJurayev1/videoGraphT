@@ -1,0 +1,167 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    height: 100%;
+    padding: 80px 0;
+    background-color: #100028;
+    
+}
+.inMain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    width: 85%;
+    margin: auto;
+    height: 100%;
+    max-width: 1170px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.inTop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    margin-bottom: 35px;
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    margin-right: 20px;
+}
+.icon svg{
+    width: 25px;
+    height: 25px;
+    color: #fff;
+}
+.infoTop{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    max-width: 50%;
+}
+.infoTop h3{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 550;
+    line-height: 1.5;
+}
+.infoTop p{
+    color: #adadad;
+    font-size: 18px;
+    font-weight: 450;
+    line-height: 1.5;
+}
+.infoTop a{
+    color: #adadad;
+    font-size: 18px;
+    font-weight: 450;
+    line-height: 1.5;
+    text-decoration: none;
+}
+.infoTop a:hover {
+    color: #00bfe7 ;
+    text-decoration: underline;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    height: 100%;
+
+}
+.map{
+    width: 100%;
+}
+.inputDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 85%;
+    margin: 0;
+}
+.inputDiv h2{
+    color: #fff;
+    font-size: 36px;
+    font-weight: 550;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+.inputDiv form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.inputDiv input{
+    height: 50px;
+    width: 100%;
+    font-size: 16px;
+    color: rgb(173, 173, 173);
+    padding-left: 20px;
+    font-weight: 300;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(225, 225, 225, 0.5);
+    border-image: initial;
+    background: 0px 0px;
+    transition: all 0s ease 0s, all 0.3s ease 0s;
+}
+.inputDiv textarea{
+    height: 100px;
+    width: 100%;
+    font-size: 16px;
+    color: rgb(173, 173, 173);
+    padding-left: 20px;
+    font-weight: 300;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(225, 225, 225, 0.5);
+    border-image: initial;
+    background: 0px 0px;
+    transition: all 0s ease 0s, all 0.3s ease 0s;
+}
+.inputDiv button{
+    width: 100%;
+    margin: 0;
+    height: 50px;
+    color: #fff;
+    background-color: #00bfe7;
+    border: none;
+    outline: none;
+    transition: all .5s ease;
+}
+.inputDiv button:hover{
+    background-color: #5bd3eb;
+    transition: all .5s ease;
+}
+.inputDiv button:active{
+    transform: scale(.9);
+    transition: all .2s ease;
+
+}
+

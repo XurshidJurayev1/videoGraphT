@@ -41,19 +41,19 @@ const Navbar = () => {
                         </div>
 
                     </div>
-                    <Link to='/' activeStyle={{color:'#00bfe7'}} >
+                    <Link to='/' >
                         Home
                     </Link>
-                    <Link to='/about' activeStyle={{color:'#00bfe7'}} >
+                    <Link to='/about' >
                         about
                     </Link>
-                    <Link to='/services' activeStyle={{color:'#00bfe7'}} >
+                    <Link to='/services' >
                         Servcices
                     </Link>
-                    <Link to='/pages' activeStyle={{color:'#00bfe7'}} >
+                    <Link to='/pages' >
                         Pages
                     </Link>
-                    <Link to='/contact' activeStyle={{color:'#00bfe7'}} >
+                    <Link to='/contact' >
                         Contact
                     </Link>
     
@@ -89,22 +89,22 @@ const Navbar = () => {
                         </div>
                         <Fade top collapse  cascade when={clicked} >
                         <div className={clicked ? `${style.clickTrue}`: `${style.clickFalse}` } >
-                            <Link to='/' activeStyle={{color:'red'}} >
+                            <Link to='/' >
                                 Home
                             </Link>
-                            <Link to='/about' activeStyle={{color:'red'}} >
+                            <Link to='/about' >
                                 about
                             </Link>
-                            <Link to='/portfolio' activeStyle={{color:'red'}} >
+                            <Link to='/portfolio' >
                                 Portfolio
                             </Link>
-                            <Link to='/services' activeStyle={{color:'red'}} >
+                            <Link to='/services' >
                                 Servcices
                             </Link>
-                            <Link to='/pages' activeStyle={{color:'red'}} >
+                            <Link to='/pages' >
                                 Pages
                             </Link>
-                            <Link to='/contact' activeStyle={{color:'red'}} >
+                            <Link to='/contact' >
                                 Contact
                             </Link>
             
